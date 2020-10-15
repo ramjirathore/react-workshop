@@ -8,6 +8,9 @@ const Landing = () => {
 		<div className="Landing">
 			<div className="Landing-cards">
 				<Card />
+				<Card />
+				<Card />
+				<Card />
 			</div>
 		</div>
 	);

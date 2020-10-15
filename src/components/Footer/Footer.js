@@ -1,22 +1,17 @@
 import React from 'react';
-
-function Copyright() {
-	return (
-		<Typography variant="body2" color="textSecondary" align="center">
-			{'Copyright © '}
-			<Link color="inherit" href="https://material-ui.com/">
-				Codinity
-			</Link>{' '}
-			{new Date().getFullYear()}
-			{'.'}
-			<br />
-			All rights reserved.
-		</Typography>
-	);
-}
+import './Footer.css';
 
 const Footer = () => {
-	return <div>I'm footer</div>;
+	return (
+		<div className="Footer">
+			<div>Contact Us</div>
+			<p>
+				{'Copyright © '}
+				<b>InstaDash</b> {new Date().getFullYear()}
+				{'.'}
+			</p>
+		</div>
+	);
 };
 
 export default Footer;

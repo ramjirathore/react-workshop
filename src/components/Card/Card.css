@@ -1,8 +1,62 @@
 .Card {
 	height: 20rem;
 	width: 20rem;
+	display: flex;
+	flex-direction: column;
 	margin: 20px;
-	background-color: #ddd;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+#main-img {
+	width: 20rem;
+	height: 13rem;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#Typography {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#Typography > p {
+	margin: 1px;
+	font-size: 0.7rem;
+	font-weight: 400;
+}
+
+#Typography > div {
+	font-weight: 500;
+	font-size: 1.5rem;
+	font-family: 'Raleway';
+	padding-bottom: 5px;
+}
+
+.Like {
+	display: inline-block;
+	padding: 0.3em 1.2em;
+	margin: 0.5em;
+	border-radius: 2em;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	background-color: #4eb5f1;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.Like:active {
+	background-color: #4095c6;
 }
 
 @media (max-width: 500px) {
@@ -10,6 +64,12 @@
 		height: 25rem;
 		width: 25rem;
 		margin: 10px;
+	}
+	#main-img {
+		width: 25rem;
+		height: 17rem;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
 	}
 }
 
