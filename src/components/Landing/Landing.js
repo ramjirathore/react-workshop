@@ -1,7 +1,16 @@
 import React from 'react';
+import Card from '../Card/Card';
+
+import './Landing.css';
 
 const Landing = () => {
-	return <div>I'm Landing</div>;
+	return (
+		<div className="Landing">
+			<div className="Landing-cards">
+				<Card />
+			</div>
+		</div>
+	);
 };
 
 export default Landing;

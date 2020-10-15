@@ -1,0 +1,18 @@
+.Header {
+	background-color: #282c34;
+	width: 100%;
+	min-height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(6px + 2.4vmin);
+	color: white;
+	font-family: 'Raleway';
+	font-weight: 600;
+}
+
+#icon {
+	width: calc(18px + 2vmin);
+	height: calc(18px + 2vmin);
+	padding: 5px;
+}

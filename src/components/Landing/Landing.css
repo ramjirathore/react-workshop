@@ -1,0 +1,33 @@
+.Landing {
+	background-color: #ccc;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	min-height: 95vh;
+}
+
+.Landing-cards {
+	width: 56.25vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+	.Landing-cards {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 800px) {
+	.Landing-cards {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 1200px) {
+	.Landing-cards {
+		width: 100%;
+	}
+}
