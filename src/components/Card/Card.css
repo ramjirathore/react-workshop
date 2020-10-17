@@ -6,11 +6,12 @@
 	margin: 20px;
 	background-color: #fff;
 	border-radius: 10px;
+	box-shadow: 5px 5px #bbb;
 }
 
 #main-img {
 	width: 20rem;
-	height: 13rem;
+	height: 16rem;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
@@ -27,7 +28,7 @@
 
 #Typography > p {
 	margin: 1px;
-	font-size: 0.7rem;
+	font-size: 1rem;
 	font-weight: 400;
 }
 
@@ -38,27 +39,6 @@
 	padding-bottom: 5px;
 }
 
-.Like {
-	display: inline-block;
-	padding: 0.3em 1.2em;
-	margin: 0.5em;
-	border-radius: 2em;
-	box-sizing: border-box;
-	border: none;
-	outline: none;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	color: #ffffff;
-	background-color: #4eb5f1;
-	text-align: center;
-	cursor: pointer;
-	transition: all 0.2s;
-}
-.Like:active {
-	background-color: #4095c6;
-}
-
 @media (max-width: 500px) {
 	.Card {
 		height: 25rem;
@@ -67,7 +47,7 @@
 	}
 	#main-img {
 		width: 25rem;
-		height: 17rem;
+		height: 20rem;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 	}

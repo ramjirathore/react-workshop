@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<div className="Header">
 			<img src={insta} id="icon" alt="insta icon" />
-			InstaDash
+			TravelDash
 		</div>
 	);
 };

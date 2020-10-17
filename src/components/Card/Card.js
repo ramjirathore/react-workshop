@@ -1,15 +1,12 @@
 import React from 'react';
-import first from '../../assets/places/1.jpg';
 import './Card.css';
 
-const Card = () => {
+const Card = (props) => {
 	return (
 		<div className="Card">
-			<img src={first} id="main-img" alt="container image" />
+			<img src={props.path} id="main-img" alt="container" />
 			<div id="Typography">
-				<div>Japan</div>
-				<button className="Like">Like</button>
-				<p>1</p>
+				<div>{props.name}</div>
 			</div>
 		</div>
 	);
