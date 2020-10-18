@@ -1,10 +1,15 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
 	return (
-		<div>
-			Footer
-			<p>{'Copyright © '}</p>
+		<div className="Footer">
+			<div>Contact Us: TravelDash@gmail.com</div>
+			<p>
+				{'Copyright © '}
+				<b>TravelDash</b>
+				{new Date().getFullYear()}
+			</p>
 		</div>
 	);
 };
